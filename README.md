@@ -47,7 +47,7 @@ Version: 1
 
 ##Credits
 
-  - This sample is based on a **tutorial** found [here](http://kiory.pro/blog/creating-an-android-app-using-tabs-with-swipe-views/).
+  - This sample is based on two **tutorials**, found [here](http://kiory.pro/blog/creating-an-android-app-using-tabs-with-swipe-views/) and [here](http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/).
   - **Google's** official **training** for how to use the `ViewPager` widget can be found [here](https://developer.android.com/training/animation/screen-slide.html)
   - **Google's** official training **Creating Swipe Views with Tabs**  can be found  [here](https://developer.android.com/training/implementing-navigation/lateral.html)
   - **Google's** official **Material Guidelines** for tabs can be found [here](https://material.google.com/components/tabs.html#tabs-specs)

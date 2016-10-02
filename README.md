@@ -49,6 +49,8 @@ Version: 1
 
   - This sample is based on a **tutorial** found [here](http://kiory.pro/blog/creating-an-android-app-using-tabs-with-swipe-views/).
   - **Google's** official **training** for how to use the `ViewPager` widget can be found [here](https://developer.android.com/training/animation/screen-slide.html)
+  - **Google's** official training **Creating Swipe Views with Tabs**  can be found  [here](https://developer.android.com/training/implementing-navigation/lateral.html)
+  - **Google's** official **Material Guidelines** for tabs can be found [here](https://material.google.com/components/tabs.html#tabs-specs)
   - See also: **Codepath Cliffnotes** for a short guide on [some of the most popular Android framework UI widgets](http://guides.codepath.com/android/Working-with-Input-Views).
   - And here's a link to a curated list of some of the [most popular open source widgets](https://github.com/wasabeef/awesome-android-ui).
   - And last but not least: The **template** for this **README.md** file comes from [zenorocha](https://gist.github.com/zenorocha/4526327).

@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -19,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
      * The number of pages/sections to show in this app.
      */
     private static final int NUM_PAGES = 3;
+
+    private Toolbar mToolbar;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -42,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        setSupportActionBar(mToolbar);
+        // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections/pages of the activity.
@@ -111,8 +119,8 @@ public class MainActivity extends AppCompatActivity {
             // Returns either a Tab1Fragment, a Tab2Fragment or a Tab3Fragment, depending on the
             // passed-in position.
 
-            // The section number (zero-based) gets incremented, because it will be
-            // used for display to the user.
+            // The position (zero-based) gets incremented, because it will be
+            // used for display as the "section number" (1 to 3) to the user.
             switch (position) {
                 case 0:
                     return Tab1Fragment.newInstance(position + 1);

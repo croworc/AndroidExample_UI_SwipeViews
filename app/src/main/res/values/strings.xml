@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SwipeViews</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="tab3_textview_text">Section 3</string>
+
+    <string name="title_section1">SECTION 1</string>
+    <string name="title_section2">SECTION 2</string>
+    <string name="title_section3">SECTION 3</string>
+</resources>

@@ -1,4 +1,4 @@
-#AndroidExample_UI_SwipeViews
+# AndroidExample_UI_SwipeViews
 
 `AndroidExample_UI_SwipeViews` is a companion Android app for the **Udacity** course [Build < anything > in Android](https://www.udacity.com/course/how-to-create-anything-in-android--ud802).
 
@@ -15,7 +15,7 @@ highlights here.  :smile:
 This app just implements and demonstrates the bare-to-the-bones feature(s) as advertised,
 not much else.
 
-##Installation
+## Installation
 
 AndroidStudio project. No external dependencies.
 Clone or download as ZIP and import into AndroidStudio.
@@ -23,7 +23,7 @@ Clone or download as ZIP and import into AndroidStudio.
 Targets Android SDK version 24, so depending on your installation,
 you may be prompted to download that SDK version during build.
 
-##Usage
+## Usage
 
 Just swipe right on the first screen.
 A second page (`Fragment`) will be displayed, using the default animation for the transitioning between the screens.
@@ -31,7 +31,7 @@ Swipe right or left to advance to the third and last page, or to return to the f
 Alternatively, tap on any one of the three tabs above the pages to navigate to the respective page.
 Pressing the device's `Back` button will return you to the previous page, or - if already at the first page - exit the app.
 
-##Contributing
+## Contributing
 
 See: repo description - just a learning/demo app, nothing breathtakingly elaborate!
 But, if you really want to:
@@ -41,11 +41,11 @@ But, if you really want to:
   4. Push to the branch: `git push origin my-new-feature`
   5. Submit a pull request :D
 
-##History
+## History
 
 Version: 1
 
-##Credits
+## Credits
 
   - This sample is based on two **tutorials**, found [here](http://kiory.pro/blog/creating-an-android-app-using-tabs-with-swipe-views/) and [here](http://www.androidhive.info/2015/09/android-material-design-working-with-tabs/).
   - **Google's** official **training** for how to use the `ViewPager` widget can be found [here](https://developer.android.com/training/animation/screen-slide.html)
@@ -55,7 +55,7 @@ Version: 1
   - And here's a link to a curated list of some of the [most popular open source widgets](https://github.com/wasabeef/awesome-android-ui).
   - And last but not least: The **template** for this **README.md** file comes from [zenorocha](https://gist.github.com/zenorocha/4526327).
 
-##License
+## License
 
 `MIT license`.
 See: [LICENSE.md](./LICENSE.md)
